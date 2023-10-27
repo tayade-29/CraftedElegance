@@ -1,0 +1,261 @@
+.h6 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.icnSettingsIcnXs {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.a,
+.a1,
+.a2,
+.a3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs);
+}
+.a1,
+.a2,
+.a3 {
+  left: 31.5px;
+}
+.a2,
+.a3 {
+  left: 61.5px;
+}
+.a3 {
+  left: 93.5px;
+}
+.socialMedia {
+  position: relative;
+  width: 120px;
+  height: 26px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.colMd4,
+.container,
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.colMd4 {
+  height: 46px;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.container,
+.row {
+  width: 1438px;
+  justify-content: space-between;
+}
+.row {
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 719px);
+  overflow: hidden;
+}
+.collapseNavbarCollapse,
+.navbarBrand {
+  position: absolute;
+  top: 6px;
+  left: calc(50% + 686px);
+  width: 384px;
+  height: 46px;
+  overflow: hidden;
+}
+.navbarBrand {
+  top: -1px;
+  left: calc(50% - 1005px);
+  width: 187px;
+  height: 58px;
+}
+.span {
+  color: var(--text-color);
+}
+.craftedElegance {
+  position: absolute;
+  top: 13px;
+  left: 67px;
+  font-size: var(--h3-size);
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: var(--font-vollkorn);
+  width: 220px;
+  color: var(--secondary-color-2);
+}
+.navbarDark {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--secondary-color-1);
+  height: 58px;
+  overflow: hidden;
+}
+.navbarToggler,
+.navbarTogglerIcon {
+  position: absolute;
+  width: 24px;
+  height: 13.7px;
+}
+.navbarTogglerIcon {
+  top: 0;
+  left: calc(50% - 12px);
+}
+.navbarToggler {
+  top: 21px;
+  left: 1413px;
+  overflow: hidden;
+  display: none;
+}
+.a4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 43px;
+}
+.a4,
+.a5,
+.li,
+.li1 {
+  height: 24px;
+  overflow: hidden;
+}
+.li {
+  position: relative;
+  width: 43px;
+  flex-shrink: 0;
+}
+.a5,
+.li1 {
+  width: 45px;
+}
+.a5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.li1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.navbarNav {
+  top: calc(50% - 12px);
+  left: 21px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  mix-blend-mode: darken;
+}
+.a6,
+.link,
+.navbarNav {
+  position: absolute;
+}
+.link {
+  top: 29.31%;
+  left: 36.62%;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.a6 {
+  top: 0;
+  left: 0;
+  width: 58px;
+  height: 24px;
+  overflow: hidden;
+}
+.link1 {
+  top: -9.76%;
+  left: 1.52%;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.li2,
+.link1,
+.link2 {
+  position: absolute;
+}
+.li2 {
+  top: 21px;
+  left: 197px;
+  width: 132px;
+  height: 41px;
+  overflow: hidden;
+}
+.link2 {
+  top: 29.31%;
+  left: 25.89%;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.collapseNavbarCollapse1 {
+  position: absolute;
+  top: 15px;
+  left: calc(50% - 1136px);
+  width: 1155px;
+  height: 58px;
+  overflow: hidden;
+}
+.navbarLightChild {
+  position: absolute;
+  top: 0;
+  left: 1919px;
+  border-radius: 50%;
+  background-color: var(--color-darkgray);
+  width: 88px;
+  height: 88px;
+}
+.navbarLight {
+  position: absolute;
+  top: 70px;
+  left: calc(50% - 1022px);
+  width: 2018px;
+  height: 87px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--h4-size);
+  color: var(--second-text-color);
+}
+.profile1Icon {
+  position: absolute;
+  top: 70px;
+  left: 1919px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+}
+.navbarStyle8NavbarLight {
+  position: relative;
+  background-color: var(--light-text-color);
+  width: 100%;
+  height: 171px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--btn-text-size);
+  color: var(--light-text-color);
+  font-family: var(--btn-text);
+}

@@ -1,0 +1,10 @@
+.component {
+  position: relative;
+  font-size: var(--h3-size);
+  letter-spacing: 4px;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: var(--font-vollkorn);
+  color: var(--color-black);
+  text-align: center;
+}

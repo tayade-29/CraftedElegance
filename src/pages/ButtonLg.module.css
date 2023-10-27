@@ -1,0 +1,24 @@
+.buttonLg,
+.h3 {
+  position: relative;
+}
+.h3 {
+  letter-spacing: 0.1px;
+  line-height: 32px;
+}
+.buttonLg {
+  border-radius: var(--br-21xl);
+  background-color: var(--secondary-color-1);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--h3-size);
+  color: var(--color-gray-200);
+  font-family: var(--font-vollkorn);
+}

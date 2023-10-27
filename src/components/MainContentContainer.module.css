@@ -1,0 +1,54 @@
+.getAnswersTo {
+  margin: 0;
+}
+.h2FeatureSection1,
+.paragraph {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+}
+.paragraph {
+  font-size: var(--h4-size);
+  line-height: 30px;
+  font-family: var(--btn-text);
+  color: var(--second-text-color);
+  display: inline-block;
+  width: 607px;
+}
+.logosfacebookIcon,
+.logoslinkedinIcon,
+.logostwitterIcon {
+  position: relative;
+  width: 30px;
+  height: 24.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logosfacebookIcon,
+.logoslinkedinIcon {
+  height: 30px;
+}
+.logoslinkedinIcon {
+  height: 29.9px;
+}
+.mainContent,
+.sm {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.sm {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-15xl);
+}
+.mainContent {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--text-color);
+  font-family: var(--font-vollkorn);
+}

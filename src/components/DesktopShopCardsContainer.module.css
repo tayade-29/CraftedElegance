@@ -1,0 +1,228 @@
+.h2FeatureSection1,
+.paragraph {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+}
+.paragraph {
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: var(--second-text-color);
+  text-align: center;
+}
+.mainContent {
+  gap: var(--gap-3xs);
+}
+.mainContent,
+.row {
+  width: 607px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cardCover20Icon {
+  width: 100%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardCover20Icon,
+.filterIcon,
+.mediaBgCover {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.filterIcon {
+  width: calc(100% - 1px);
+  left: 1px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.mediaBgCover {
+  width: 100%;
+  left: 0;
+}
+.h2 {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 21px);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.cardContent,
+.cardItem {
+  position: absolute;
+  background-color: var(--light-text-color);
+  overflow: hidden;
+}
+.cardContent {
+  width: calc(100% - 340px);
+  right: 309px;
+  bottom: 26px;
+  left: 31px;
+  height: 48px;
+}
+.cardItem {
+  top: 0;
+  left: 0;
+  width: 510px;
+  height: 500px;
+}
+.colMd6,
+.h21 {
+  position: relative;
+}
+.colMd6 {
+  width: 510px;
+  height: 500px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.h21 {
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.cardContent1 {
+  position: absolute;
+  width: calc(100% - 104px);
+  right: 83px;
+  bottom: 18px;
+  left: 21px;
+  background-color: var(--light-text-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-29xl);
+  box-sizing: border-box;
+}
+.cardItem1,
+.colMd3 {
+  width: 240px;
+  height: 500px;
+  overflow: hidden;
+}
+.cardItem1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--light-text-color);
+}
+.colMd3 {
+  position: relative;
+  flex-shrink: 0;
+}
+.cardContent2,
+.cardItem2 {
+  background-color: var(--light-text-color);
+  overflow: hidden;
+}
+.cardContent2 {
+  position: absolute;
+  width: calc(100% - 70px);
+  right: 56px;
+  bottom: 23px;
+  left: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-7xl);
+  box-sizing: border-box;
+}
+.cardItem2 {
+  position: relative;
+  width: 240px;
+  height: 242px;
+  flex-shrink: 0;
+}
+.a61Icon,
+.filter {
+  position: absolute;
+  top: 0;
+}
+.a61Icon {
+  left: 0;
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+.filter {
+  height: 100%;
+  width: calc(100% - 1px);
+  right: 0;
+  bottom: 0;
+  left: 1px;
+  overflow: hidden;
+  background-image: url(/public/filter3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.cardContent3,
+.colMd31,
+.row1 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardContent3 {
+  position: absolute;
+  width: calc(100% - 120px);
+  right: 102px;
+  bottom: 18px;
+  left: 18px;
+  background-color: var(--light-text-color);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-21xl);
+  box-sizing: border-box;
+}
+.colMd31,
+.row1 {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.row1 {
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  text-align: center;
+  font-size: var(--h5-size);
+}
+.container,
+.desktopShopCards31 {
+  position: absolute;
+  overflow: hidden;
+}
+.container {
+  top: 0;
+  left: calc(50% - 524.5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) 0;
+  gap: var(--gap-29xl);
+}
+.desktopShopCards31 {
+  top: 282px;
+  left: 128px;
+  background-color: var(--color-gray-100);
+  width: 1791px;
+  height: 790px;
+  mix-blend-mode: linear-burn;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--text-color);
+  font-family: var(--btn-text);
+}

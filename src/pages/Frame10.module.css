@@ -1,0 +1,207 @@
+.crafted {
+  margin: 0;
+}
+.craftedElegance {
+  position: absolute;
+  top: 106px;
+  left: -39px;
+  font-size: 150px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: var(--color-saddlebrown);
+  width: 994px;
+  height: 436px;
+}
+.p101Icon,
+.p102Icon,
+.p131Icon {
+  position: absolute;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.p101Icon {
+  top: 523px;
+  left: 1577px;
+  border-radius: 7px;
+  width: 407px;
+  height: 526px;
+}
+.p102Icon,
+.p131Icon {
+  top: 367px;
+  left: 1198px;
+  width: 367px;
+  height: 486px;
+}
+.p131Icon {
+  top: 86px;
+  left: 1601px;
+  width: 370px;
+  height: 406px;
+}
+.growWithUsContainer {
+  position: absolute;
+  top: 295px;
+  left: 1484px;
+  text-transform: uppercase;
+}
+.letYourSpeakContainer {
+  top: 279px;
+  left: 1271px;
+}
+.experienceLikeNeverContainer,
+.letYourSpeakContainer,
+.text {
+  position: absolute;
+  text-transform: uppercase;
+}
+.text {
+  top: 1041px;
+  left: 1027px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+}
+.experienceLikeNeverContainer {
+  top: 145px;
+  left: 1319px;
+  display: inline-block;
+  width: 165px;
+  height: 116px;
+}
+.reachToGlobalContainer,
+.sellAtTheContainer {
+  position: absolute;
+  top: 542px;
+  left: 1048px;
+  text-transform: uppercase;
+}
+.reachToGlobalContainer {
+  top: 883px;
+  left: 1354px;
+}
+.text1 {
+  top: 243px;
+  left: 1138px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+}
+.bestPlaceToContainer,
+.getStarted,
+.text1 {
+  position: absolute;
+  text-transform: uppercase;
+}
+.getStarted {
+  top: 355px;
+  left: 1106px;
+  display: inline-block;
+  width: 117px;
+  height: 72px;
+}
+.bestPlaceToContainer {
+  top: 753px;
+  left: 1117px;
+}
+.whyToSell {
+  position: absolute;
+  top: 1140px;
+  left: 50px;
+  font-size: var(--font-size-45xl);
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  display: inline-block;
+  color: var(--color-saddlebrown);
+  text-align: left;
+  width: 816px;
+  height: 90px;
+}
+.hugeAudienceOur {
+  margin-bottom: 0;
+}
+.hugeAudienceOurWebsiteAtt {
+  margin: 0;
+  padding-left: 32px;
+}
+.sellingYourArtContainer {
+  position: absolute;
+  top: 1215px;
+  left: 50px;
+  font-size: var(--font-inherit);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-inherit);
+  text-align: justify;
+  display: inline-block;
+  width: 1811px;
+  height: 401px;
+}
+.sellerStories {
+  position: absolute;
+  top: 1703px;
+  left: 50px;
+  font-size: var(--font-size-45xl);
+  letter-spacing: 0.2px;
+  line-height: 90px;
+  color: var(--color-saddlebrown);
+  text-align: left;
+}
+.theAccidentalEntrepreneurContainer {
+  position: absolute;
+  top: 1856px;
+  left: 335px;
+  font-size: var(--h3-size);
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: justify;
+  display: inline-block;
+  width: 929px;
+}
+.p181Icon {
+  position: absolute;
+  top: 2555px;
+  left: 250px;
+  width: 465px;
+  height: 567px;
+  object-fit: cover;
+}
+.theRetireesDreamContainer {
+  position: absolute;
+  top: 2600px;
+  left: 786px;
+  font-size: var(--h3-size);
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: justify;
+  display: inline-block;
+  width: 1160px;
+}
+.p21Icon {
+  position: absolute;
+  top: 3308px;
+  left: 1469px;
+  width: 371px;
+  height: 546px;
+  object-fit: cover;
+}
+.theAspiringSculptorContainer {
+  position: absolute;
+  top: 3350px;
+  left: 266px;
+  font-size: var(--h3-size);
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: justify;
+  display: inline-block;
+  width: 1041px;
+}
+.craftedEleganceParent {
+  position: relative;
+  background-color: #dacebe;
+  width: 100%;
+  height: 4883px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+  font-family: var(--font-vollkorn);
+}

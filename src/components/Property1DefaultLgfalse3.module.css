@@ -1,0 +1,46 @@
+.formControl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.images1,
+.inputformControl {
+  position: absolute;
+  top: 0;
+  left: 386px;
+  width: 64px;
+  height: 41px;
+}
+.inputformControl {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.formControlInputStyle1 {
+  position: absolute;
+  top: 41px;
+  left: 2px;
+  width: 450px;
+  height: 50px;
+  overflow: hidden;
+}
+.property1defaultLgfalse {
+  position: absolute;
+  top: 164px;
+  left: 37px;
+  width: 450px;
+  height: 125px;
+  text-align: left;
+  font-size: var(--title-size);
+  color: var(--text-color);
+  font-family: var(--font-vollkorn);
+}

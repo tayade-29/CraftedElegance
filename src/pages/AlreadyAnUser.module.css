@@ -1,0 +1,23 @@
+.already {
+  text-transform: capitalize;
+}
+.anUser {
+  text-transform: lowercase;
+}
+.span {
+  text-transform: capitalize;
+  color: var(--secondary-color-1);
+}
+.login1 {
+  text-decoration: underline;
+}
+.alreadyAnUserContainer {
+  position: relative;
+  font-size: var(--h3-size);
+  letter-spacing: 4px;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: var(--font-vollkorn);
+  text-align: left;
+  color: #373333;
+}

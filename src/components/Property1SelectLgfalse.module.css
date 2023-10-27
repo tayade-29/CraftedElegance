@@ -1,0 +1,129 @@
+.span {
+  font-family: var(--btn-text);
+}
+.formControl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+.dropdown {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 18px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.vectorIcon {
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 29px;
+  width: 14px;
+  height: 8px;
+}
+.listEntry,
+.option {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.option {
+  width: 100%;
+  right: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  font-size: var(--btn-text-size);
+  font-family: var(--btn-text);
+}
+.listEntry {
+  letter-spacing: 0.1px;
+  line-height: 16px;
+}
+.option1,
+.option2 {
+  position: absolute;
+  overflow: hidden;
+}
+.option1 {
+  top: 79px;
+  left: 25px;
+  width: 89px;
+  height: 16px;
+  display: none;
+}
+.option2 {
+  top: 119px;
+  color: var(--primary-color);
+}
+.option2,
+.option3,
+.option4 {
+  left: 25px;
+  width: 89px;
+  height: 16px;
+  display: none;
+}
+.option3 {
+  position: absolute;
+  top: 159px;
+  overflow: hidden;
+}
+.option4 {
+  top: 199px;
+}
+.customSelect,
+.option4,
+.option5,
+.select {
+  position: absolute;
+  overflow: hidden;
+}
+.option5 {
+  top: 239px;
+  left: 25px;
+  width: 89px;
+  height: 16px;
+  display: none;
+}
+.customSelect,
+.select {
+  left: 0;
+  height: 50px;
+}
+.select {
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+.customSelect {
+  top: 43px;
+  width: 451px;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.formText {
+  position: absolute;
+  top: 93px;
+  left: 2px;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-family: var(--btn-text);
+}
+.property1selectLgfalse {
+  position: absolute;
+  top: 305px;
+  left: 42px;
+  width: 450px;
+  height: 121px;
+  text-align: left;
+  font-size: var(--title-size);
+  color: var(--second-text-color);
+  font-family: var(--font-vollkorn);
+}

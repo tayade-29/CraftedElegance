@@ -1,0 +1,15 @@
+.component {
+  position: absolute;
+  top: 282px;
+  left: 535px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-teal-100);
+  box-sizing: border-box;
+  width: 1112px;
+  height: 817px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--title-size);
+  color: var(--text-color);
+  font-family: var(--font-vollkorn);
+}

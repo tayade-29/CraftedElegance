@@ -1,0 +1,110 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 277.5px;
+  left: 248.5px;
+  width: 100px;
+  height: 100px;
+}
+.frameItem {
+  top: 316px;
+  left: 371px;
+  width: 267px;
+  height: 239px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+}
+.ellipseIcon,
+.frameInner {
+  top: 700px;
+  border-radius: 50%;
+  height: 239px;
+  mix-blend-mode: darken;
+}
+.frameInner {
+  position: absolute;
+  left: 371px;
+  width: 267px;
+  object-fit: cover;
+}
+.ellipseIcon {
+  left: 876px;
+}
+.ellipseIcon,
+.frameChild1,
+.frameChild2,
+.frameChild3 {
+  position: absolute;
+  width: 267px;
+  object-fit: cover;
+}
+.frameChild1 {
+  top: 725px;
+  left: 1350.1px;
+  height: 239px;
+  mix-blend-mode: darken;
+}
+.frameChild2,
+.frameChild3 {
+  top: 347px;
+  left: 876px;
+  height: 208px;
+}
+.frameChild3 {
+  top: 347.5px;
+  left: 1353px;
+  height: 239px;
+  mix-blend-mode: darken;
+}
+.dahboard,
+.home,
+.productListing,
+.profile,
+.wallet,
+.wantToBuy {
+  position: absolute;
+  top: 566px;
+  left: 460px;
+  letter-spacing: 4px;
+  line-height: 40px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.dahboard,
+.productListing,
+.profile,
+.wallet,
+.wantToBuy {
+  left: 940px;
+}
+.productListing,
+.profile,
+.wallet,
+.wantToBuy {
+  left: 1439px;
+}
+.productListing,
+.wallet,
+.wantToBuy {
+  top: 969px;
+  left: 386px;
+}
+.wallet,
+.wantToBuy {
+  left: 963px;
+}
+.wantToBuy {
+  left: 1398px;
+  color: rgba(0, 0, 0, 0.58);
+}
+.vectorParent {
+  position: relative;
+  background-color: var(--color-lightgray-100);
+  width: 100%;
+  height: 1249px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--h3-size);
+  color: var(--color-gray-300);
+  font-family: var(--font-vollkorn);
+}

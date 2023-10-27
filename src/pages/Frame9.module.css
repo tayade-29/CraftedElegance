@@ -1,0 +1,27 @@
+.craftedElegance {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 989px;
+}
+.alreadyAnUser {
+  position: absolute;
+  top: 189px;
+  left: 643px;
+  font-size: var(--font-size-45xl);
+  text-transform: capitalize;
+  text-align: left;
+}
+.craftedEleganceParent {
+  position: relative;
+  background-color: var(--color-lightgray-100);
+  width: 100%;
+  height: 1475px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-saddlebrown);
+  font-family: var(--font-vollkorn);
+}

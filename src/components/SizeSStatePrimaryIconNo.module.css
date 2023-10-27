@@ -1,0 +1,18 @@
+.chatWithUs {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.sizesStateprimaryIconno {
+  background-color: var(--color-black);
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-11xl);
+  text-align: left;
+  font-size: var(--h5-size);
+  color: var(--grayscale-off-white);
+  font-family: var(--title);
+}

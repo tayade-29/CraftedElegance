@@ -1,0 +1,66 @@
+.p51Icon,
+.p52Icon,
+.p91Icon {
+  position: absolute;
+  top: 261px;
+  left: 103px;
+  width: 467px;
+  height: 721px;
+  object-fit: cover;
+}
+.p52Icon,
+.p91Icon {
+  left: 694px;
+  width: 459px;
+  height: 713px;
+}
+.p91Icon {
+  left: 1281px;
+  width: 458px;
+}
+.buyer,
+.seller {
+  position: absolute;
+  top: 1996px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.buyer {
+  left: 273px;
+  display: inline-block;
+  width: 245px;
+  height: 38px;
+}
+.seller {
+  left: 1315px;
+  text-align: center;
+}
+.p64Icon {
+  position: absolute;
+  top: 1266px;
+  left: 421px;
+  width: 1127px;
+  height: 597px;
+  object-fit: cover;
+}
+.craftedElegance {
+  position: absolute;
+  top: 137px;
+  left: 471px;
+  font-size: 100px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-vollkorn);
+  color: var(--color-saddlebrown);
+}
+.p51Parent {
+  background-color: var(--color-lightgray-100);
+  width: 2002px;
+  height: 3037px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--light-text-color);
+  font-family: var(--font-stoke);
+}

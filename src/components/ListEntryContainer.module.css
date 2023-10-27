@@ -1,0 +1,177 @@
+.email {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 21px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.inputformControl {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.dropdown {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 18px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.vectorIcon {
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 29px;
+  width: 14px;
+  height: 8px;
+}
+.listEntry,
+.option {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.option {
+  width: 100%;
+  right: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  font-size: var(--btn-text-size);
+  font-family: var(--btn-text);
+}
+.listEntry {
+  letter-spacing: 0.1px;
+  line-height: 16px;
+}
+.option1 {
+  top: 79px;
+}
+.option1,
+.option2,
+.option3,
+.option4,
+.option5 {
+  position: absolute;
+  left: 25px;
+  width: 89px;
+  height: 16px;
+  overflow: hidden;
+  display: none;
+}
+.option2 {
+  top: 119px;
+  color: var(--primary-color);
+}
+.option3,
+.option4,
+.option5 {
+  top: 159px;
+}
+.option4,
+.option5 {
+  top: 199px;
+}
+.option5 {
+  top: 239px;
+}
+.customSelect,
+.select {
+  height: 50px;
+  overflow: hidden;
+}
+.select {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.customSelect {
+  position: relative;
+  width: 255px;
+  flex-shrink: 0;
+}
+.dropdown1 {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 18px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.option6 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  font-size: var(--btn-text-size);
+  color: var(--muted-color);
+  font-family: var(--btn-text);
+}
+.customSelectParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-mini);
+  font-family: var(--font-roboto);
+}
+.message {
+  position: absolute;
+  top: 16px;
+  left: 26px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.formControlTextareaInputSt {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--muted-color);
+  box-sizing: border-box;
+  height: 140px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--muted-color);
+}
+.cardContent {
+  align-self: stretch;
+  background-color: var(--light-text-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--btn-text-size);
+  color: var(--second-text-color);
+  font-family: var(--btn-text);
+}

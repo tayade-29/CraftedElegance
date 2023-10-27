@@ -1,0 +1,26 @@
+.formText,
+.formText1 {
+  position: absolute;
+  bottom: 100px;
+  left: 2px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.formText1 {
+  bottom: 0;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  color: var(--second-text-color);
+}
+.property1subscribeLgfalse {
+  position: absolute;
+  top: 1125px;
+  left: 44px;
+  width: 450px;
+  height: 124px;
+  text-align: left;
+  font-size: var(--title-size);
+  color: var(--text-color);
+  font-family: var(--btn-text);
+}

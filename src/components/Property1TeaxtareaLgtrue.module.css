@@ -1,0 +1,41 @@
+.formControl {
+  position: absolute;
+  top: 18px;
+  left: 9px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.yourMessage {
+  position: absolute;
+  top: calc(50% - 66px);
+  left: 21px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.formControlInputStyle1 {
+  position: absolute;
+  width: 100%;
+  top: 56px;
+  right: -9px;
+  left: 9px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 196px;
+  overflow: hidden;
+  font-size: var(--h4-size);
+  color: var(--second-text-color);
+  font-family: var(--btn-text);
+}
+.property1teaxtareaLgtrue {
+  position: absolute;
+  top: 426px;
+  left: 37px;
+  width: 450px;
+  height: 252px;
+  text-align: left;
+  font-size: var(--title-size);
+  color: var(--text-color);
+  font-family: var(--font-vollkorn);
+}

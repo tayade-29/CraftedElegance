@@ -1,0 +1,15 @@
+.formGroup {
+  position: absolute;
+  top: 350px;
+  left: 704px;
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-mediumslateblue);
+  box-sizing: border-box;
+  width: 604px;
+  height: 339px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--title-size);
+  color: var(--text-color);
+  font-family: var(--btn-text);
+}

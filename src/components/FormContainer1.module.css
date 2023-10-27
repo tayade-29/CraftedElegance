@@ -1,0 +1,228 @@
+.h3,
+.thereAreNo {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+}
+.thereAreNo {
+  font-size: var(--btn-text-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-family: var(--btn-text);
+  color: var(--second-text-color);
+}
+.formControl,
+.h31 {
+  position: relative;
+  letter-spacing: 0.1px;
+}
+.h31 {
+  font-size: var(--h3-size);
+  line-height: 32px;
+}
+.formControl {
+  line-height: 24px;
+}
+.icnBxsStarIcon {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rating,
+.stars {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stars {
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-8xs);
+}
+.rating {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.message {
+  position: absolute;
+  top: 16px;
+  left: 26px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.formControlTextareaInputSt {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 140px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--btn-text-size);
+  color: var(--second-text-color);
+  font-family: var(--btn-text);
+}
+.textarea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.b {
+  font-family: var(--btn-text);
+}
+.email,
+.formControl2 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.email {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: 21px;
+  line-height: 28px;
+}
+.inputformControl {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.formControlInputStyle1 {
+  position: relative;
+  width: 634px;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--second-text-color);
+  font-family: var(--btn-text);
+}
+.formControl3 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  color: var(--text-color);
+  font-family: var(--font-vollkorn);
+}
+.formControlInputStyle11 {
+  position: relative;
+  width: 650px;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.formText {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.formGroup1,
+.inputs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formGroup1 {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  color: var(--second-text-color);
+  font-family: var(--btn-text);
+}
+.inputs {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xl);
+  font-size: var(--btn-text-size);
+}
+.formCheckInput {
+  position: absolute;
+  height: 89.29%;
+  width: 3.62%;
+  top: 3.57%;
+  right: 96.38%;
+  bottom: 7.14%;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--light-text-color);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.formCheckLabel {
+  position: absolute;
+  top: 0;
+  left: 5.51%;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.customCheckbox {
+  position: relative;
+  width: 690px;
+  height: 28px;
+  font-size: var(--h5-size);
+  color: var(--second-text-color);
+  font-family: var(--btn-text);
+}
+.btnText {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+}
+.btn1,
+.form,
+.tabThree {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.btn1 {
+  border-radius: var(--br-8xs);
+  background-color: var(--secondary-color-1);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-mini) var(--padding-21xl);
+  text-align: center;
+  font-size: var(--btn-text-size);
+  color: var(--light-text-color);
+  font-family: var(--btn-text);
+}
+.form,
+.tabThree {
+  align-items: flex-start;
+}
+.form {
+  align-self: stretch;
+  padding: var(--padding-5xl) 0 0;
+  gap: var(--gap-6xl);
+  font-size: var(--title-size);
+}
+.tabThree {
+  position: absolute;
+  top: 219px;
+  left: 450px;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1410px;
+  overflow: hidden;
+  padding: var(--padding-29xl);
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--text-color);
+  font-family: var(--font-vollkorn);
+}
