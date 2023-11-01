@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import styles from "./SizeSStatePrimaryIconNo.module.css";
 
 const SizeSStatePrimaryIconNo = ({
-  chatButtonText,
+  showChatWitHUs,
   sizeSStatePrimaryIconNoBackgroundColor,
   sizeSStatePrimaryIconNoPosition,
   sizeSStatePrimaryIconNoTop,
@@ -40,9 +40,11 @@ const SizeSStatePrimaryIconNo = ({
       className={styles.sizesStateprimaryIconno}
       style={sizeSStatePrimaryIconNoStyle}
     >
-      <div className={styles.chatWithUs} style={chatWitHUsStyle}>
-        {chatButtonText}
-      </div>
+      {showChatWitHUs && (
+        <div className={styles.chatWithUs} style={chatWitHUsStyle}>
+          Chat witH us
+        </div>
+      )}
     </div>
   );
 };
